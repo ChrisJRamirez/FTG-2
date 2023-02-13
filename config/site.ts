@@ -6,24 +6,38 @@ interface SiteConfig {
   mainNav: NavItem[]
   links: {
     twitter: string
+    instagram: string
     github: string
     docs: string
   }
 }
 
 export const siteConfig: SiteConfig = {
-  name: "Next.js",
+  name: "First Time Growers",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "First Time Grower? Not a problem, we're glad you've taken the first step towards a lifelong hobby.",
   mainNav: [
     {
       title: "Home",
       href: "/",
     },
+    {
+      title: "Mission",
+      href:"/mission"
+    },
+    {
+      title: "Contact",
+      href:"/contact"
+    },
+    {
+      title: "Legality",
+      href:"/legality"
+    }
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    twitter: "https://twitter.com/FTGrowers",
+    instagram: "https://www.instagram.com/thefirsttimegrowers/",
+    github: "https://github.com/ChrisJRamirez/FTG-2",
     docs: "https://ui.shadcn.com",
   },
 }
