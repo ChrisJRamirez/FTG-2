@@ -32,6 +32,10 @@ export const siteConfig: SiteConfig = {
     {
       title: "Legality",
       href:"/legality"
+    },
+    {
+      title: "FAQ",
+      href:"/FAQ"
     }
   ],
   links: {

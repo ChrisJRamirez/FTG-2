@@ -1,5 +1,5 @@
 {
-  "name": "next-template",
+  "name": "firsttimegrowers",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "preview": "next build && next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.10",
     "@next/font": "^13.1.6",
     "@radix-ui/react-accessible-icon": "^1.0.1",
     "@radix-ui/react-accordion": "^1.1.0",

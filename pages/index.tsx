@@ -4,6 +4,10 @@ import Link from "next/link"
 import { siteConfig } from "@/config/site"
 import { Layout } from "@/components/layout"
 import { buttonVariants } from "@/components/ui/button"
+import { Sidebar } from "lucide-react"
+import { SidebarHome } from "@/components/sidebarHome"
+import FAQPage from "./FAQ"
+
 
 export default function IndexPage() {
   return (
@@ -17,7 +21,7 @@ export default function IndexPage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
+      <section className="container grid flex-row items-center gap-6 pt-6 pb-8 md:py-10">
         <div className="flex max-w-[980px] flex-col items-start gap-2">
           <h1 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
           First Time Grower?  <br className="hidden sm:inline" />
@@ -43,7 +47,8 @@ export default function IndexPage() {
           >
             GitHub
           </Link>
-        </div>
+          
+        </div>  
       </section>
     </Layout>
   )

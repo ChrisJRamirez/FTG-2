@@ -7,6 +7,11 @@ import {
   Instagram,
   type Icon as LucideIcon,
   Sprout,
+  Cog,
+  Home,
+  BookOpen,
+  Newspaper,
+  ChevronDown,
 } from "lucide-react"
 
 export type Icon = LucideIcon
@@ -18,6 +23,11 @@ export const Icons = {
   twitter: Twitter,
   instagram: Instagram,
   sprout: Sprout,
+  cog: Cog,
+  home: Home,
+  bookOpen: BookOpen,
+  newspaper: Newspaper,
+  chevronDown: ChevronDown,
   logo: (props: LucideProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
