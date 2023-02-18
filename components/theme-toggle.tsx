@@ -17,13 +17,13 @@ export function ThemeToggle() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="sm">
-          <Icons.sun className="mx-1 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100" />
+          <Icons.sun className="mx-1 hover:animate-pulse hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100" />
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" forceMount>
         <DropdownMenuItem onClick={() => setTheme("light")}>
-          <Icons.sun className="w-4 h-4" />
+          <Icons.sun className="w-4 h-4 mr-2" />
           <span>Light</span>
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("dark")}>
